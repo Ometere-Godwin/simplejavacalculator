@@ -23,9 +23,9 @@ public class ArithmeticOperations {
             System.out.printf("%f * %f = %f", number1, number2, number1 * number2);
         }else if (operation.equals("divide")) {
             if (number2 ==0){
-                System.out.printf("%f / %f = %f", number1, number2, number1/number2 );
+                System.out.println("Hey! You cannot divide by 0" );
+            }else {System.out.printf("%f / %f = %f", number1, number2, number1 / number2);
             }
-            System.out.printf("%f / %f = %f", number1, number2, number1 / number2);
         }else{
             System.out.printf("%s is an invalid operation", operation);
         }
